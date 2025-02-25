@@ -1,11 +1,15 @@
 # `commitlint-config`
 
-> TODO: description
+## Installation
+
+```js
+ npm install commitlint-config --save
+```
+
+## API
 
 ## Usage
 
-```
-const commitlintConfig = require('commitlint-config');
-
-// TODO: DEMONSTRATE API
+```js
+const commitlintConfig = require("commitlint-config");
 ```
