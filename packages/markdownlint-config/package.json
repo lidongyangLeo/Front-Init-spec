@@ -1,20 +1,20 @@
 {
-  "name": "fe-project-commitlint-config",
-  "version": "0.0.5",
-  "description": "commitlint config",
+  "name": "fe-project-markdownlint-config",
+  "version": "0.0.1",
+  "description": "markdownlint-config",
+  "keywords": [
+    "markndowlint",
+    "markdownlint-config"
+  ],
   "author": "lidongyang",
   "homepage": "https://github.com/lidongyangLeo/Front-Init-spec#readme",
   "license": "ISC",
-  "main": "lib/commitlint-config.js",
+  "main": "lib/markdownlint-config.json",
   "directories": {
     "lib": "lib"
   },
   "files": [
     "lib"
-  ],
-  "keywords": [
-    "commitlint",
-    "commitlint-config"
   ],
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "conventional-changelog-conventionalcommits": "^8.0.0"
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
   }
 }
