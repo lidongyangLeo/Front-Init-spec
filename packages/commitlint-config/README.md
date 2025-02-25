@@ -3,7 +3,7 @@
 ## Installation
 
 ```js
- npm install commitlint-config --save
+ npm install fe-project-commitlint-config --save
 ```
 
 ## API
@@ -11,5 +11,5 @@
 ## Usage
 
 ```js
-const commitlintConfig = require("commitlint-config");
+const commitlintConfig = require("fe-project-commitlint-config");
 ```
