@@ -6,8 +6,6 @@
  npm install fe-project-commitlint-config --save
 ```
 
-## API
-
 ## Usage
 
 ```js
