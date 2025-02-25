@@ -1,6 +1,6 @@
 {
   "name": "fe-project-markdownlint-config",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "markdownlint-config",
   "keywords": [
     "markndowlint",
@@ -27,6 +27,6 @@
     "access": "public"
   },
   "peerDependencies": {
-    "markdownlint": "^0.28.1"
+    "markdownlint": "^0.37.4"
   }
 }
