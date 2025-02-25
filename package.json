@@ -1,0 +1,33 @@
+{
+  "name": "front-init-spec",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install ",
+    "init": "pnpm install --no-frozen-lockfile",
+    "clean": "lerna clean && rm -rf node_modules",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "husky": "^9.1.7",
+    "lerna": "^8.2.0",
+    "markdownlint": "^0.37.4",
+    "pnpm": "^9.15.1",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typedoc": "^0.27.9",
+    "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "li dongyang",
+  "license": "MIT"
+}
