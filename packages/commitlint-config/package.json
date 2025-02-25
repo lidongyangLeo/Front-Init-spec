@@ -1,0 +1,32 @@
+{
+  "name": "fe-commitlint-config",
+  "version": "0.0.0",
+  "description": "commitlint config",
+  "author": "lidongyang",
+  "homepage": "https://github.com/lidongyangLeo/Front-Init-spec#readme",
+  "license": "ISC",
+  "main": "lib/commitlint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidongyangLeo/Front-Init-spec.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/commitlint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lidongyangLeo/Front-Init-spec/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
+  }
+}
