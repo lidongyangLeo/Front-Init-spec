@@ -1,4 +1,4 @@
-# `commitlint-config`
+# `fe-project-commitlint-config`
 
 ## Installation
 

@@ -13,6 +13,10 @@
   "files": [
     "lib"
   ],
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lidongyangLeo/Front-Init-spec.git"
