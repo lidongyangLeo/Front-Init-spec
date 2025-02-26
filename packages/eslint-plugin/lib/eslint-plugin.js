@@ -7,8 +7,14 @@ exports.rules = requireAll({
   dirname: path.resolve(__dirname, "rules"),
 });
 
-// module.exports = eslintPlugin;
+exports.configs = requireAll({
+  dirname: path.resolve(__dirname, "configs"),
+});
 
-// function eslintPlugin() {
-//   return 'Hello from eslintPlugin';
-// }
+exports.processors = {
+  ".json": {
+    preprocess(text) {
+      return [`module.exports = ${text}`];
+    },
+  },
+};
