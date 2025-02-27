@@ -1,6 +1,6 @@
 {
   "name": "fe-project-lint",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "front-end project lint",
   "author": "lidongyang",
   "homepage": "https://github.com/lidongyangLeo/Front-Init-spec#readme",
@@ -81,7 +81,7 @@
     "inquirer": "^7.3.3",
     "is-docker": "^2.1.1",
     "lodash": "^4.17.20",
-    "markdownlint": "^0.25.1",
+    "markdownlint": "^0.37.4",
     "markdownlint-rule-helpers": "^0.13.0",
     "ora": "^5.1.0",
     "prettier": "^2.2.1",
