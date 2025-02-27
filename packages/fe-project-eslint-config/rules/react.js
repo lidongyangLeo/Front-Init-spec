@@ -51,10 +51,7 @@ module.exports = {
 
     // 标签属性的换行，如果标签有多个属性，且存在换行，则每个属性都需要换行独占一行
     // @unessential
-    'react/jsx-max-props-per-line': [
-      'error',
-      { maximum: 1, when: 'multiline' },
-    ],
+    'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'multiline' }],
 
     // 不要在 JSX 属性中使用 .bind()
     'react/jsx-no-bind': [
@@ -318,10 +315,7 @@ module.exports = {
     'react/void-dom-elements-no-children': 'error',
 
     // defaultProps 需要与 propTypes 相匹配
-    'react/default-props-match-prop-types': [
-      'warn',
-      { allowRequiredDefaults: false },
-    ],
+    'react/default-props-match-prop-types': ['warn', { allowRequiredDefaults: false }],
 
     // 在扩展 React.PureComponent 时禁止使用 shouldComponentUpdate
     'react/no-redundant-should-component-update': 'error',
