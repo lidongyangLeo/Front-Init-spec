@@ -27,6 +27,6 @@
     "access": "public"
   },
   "peerDependencies": {
-    "markdownlint": "^0.37.4"
+    "markdownlint": "^0.28.1"
   }
 }
